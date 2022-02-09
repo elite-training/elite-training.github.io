@@ -1,7 +1,7 @@
 var CACHE_NAME = 'Elite Training';
 var urlsToCache = [
-  '/app',
-
+  '/',
+  '/completed'
 ];
 
 // Install a service worker
