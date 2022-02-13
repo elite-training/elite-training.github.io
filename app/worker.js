@@ -1,6 +1,6 @@
 var CACHE_NAME = 'Elite Training';
 var urlsToCache = [
-  '/app',
+  '/',
   
 ];
 
