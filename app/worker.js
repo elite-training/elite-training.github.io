@@ -1,4 +1,4 @@
-var CACHE_NAME = 'Elite Training v2';
+var CACHE_NAME = 'Elite Training v3';
 
 var urlsToCache = [
   '/',
