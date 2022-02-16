@@ -1,8 +1,8 @@
-var CACHE_NAME = 'Elite Training 0.4';
+var CACHE_NAME = 'Elite Training 0.5';
 
 var urlsToCache = [
-  '/images/*','*.png'
-  
+  '/images/*',
+  '*.png'
 ];
 
 // Install a service worker
