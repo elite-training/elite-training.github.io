@@ -1,7 +1,7 @@
 var CACHE_NAME = 'Elite Training v4';
 
 var urlsToCache = [
-  '/',
+  '/images/*',
   
 ];
 
