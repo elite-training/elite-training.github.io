@@ -1,4 +1,4 @@
-var CACHE_NAME = 'Elite Training 0.8';
+var CACHE_NAME = 'Elite Training 0.10';
 
 var urlsToCache = [
   '/images/*',
