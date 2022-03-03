@@ -18,10 +18,10 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://elite-training.gr/app?v=0.38.1",
+  "start_url": "https://elite-training.gr/app?v=0.39",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#4285f4",
   "theme_color": "#4285f4",
-  "version": "0.38.1"
+  "version": "0.39"
 }
