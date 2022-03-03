@@ -19,7 +19,7 @@
     }
   ],
   "start_url": "https://elite-training.gr/app/",
-  "id": "/app/",
+  "id":"/app/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#4285f4",
