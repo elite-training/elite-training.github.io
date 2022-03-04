@@ -1,5 +1,8 @@
-import { getMessaging } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging.js";
-import { onBackgroundMessage  } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-sw.js";
+//import { getMessaging } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging.js";
+//import { onBackgroundMessage  } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-sw.js";
+
+const getMessaging = require('https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging.js');
+const onBackgroundMessage = require('https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-sw.js');
 
 const messaging = getMessaging();
 onBackgroundMessage(messaging, (payload) => {
