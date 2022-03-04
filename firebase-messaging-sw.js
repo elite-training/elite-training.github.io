@@ -1,5 +1,5 @@
-importScripts('https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js')
-importScripts('https://www.gstatic.com/firebasejs/9.6.1/firebase-messaging-compat.js')
+import { getMessaging } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging.js";
+import { onBackgroundMessage  } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-messaging-sw.js";
 
 const messaging = getMessaging();
 onBackgroundMessage(messaging, (payload) => {
